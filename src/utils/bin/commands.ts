@@ -17,8 +17,7 @@ export const help = async (args: string[]): Promise<string> => {
   return `Welcome! Here are all the available commands:
 \n${c}\n
 [tab]: trigger completion.
-[ctrl+l]/clear: clear terminal.\n
-Type 'sumfetch' to display summary.
+[ctrl+l]/clear: clear terminal.
 `;
 };
 
@@ -151,12 +150,10 @@ export const banner = (args?: string[]): string => {
 ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝       ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
             
 You've reached my personal website.
-If you need to contact me please send an email to <u><a class="text-light-blue dark:text-dark-blue underline" href="mailto:hello@mariathornbury.com" target="_blank">maria@thornbury.info</a></u>, or contact me on my <u><a class="text-light-blue dark:text-dark-blue underline" href="https://www.linkedin.com/in/maria-thornbury-63122a27b/">Linkedin page </a></u>.
+If you need to contact me please send an email to <u><a class="text-light-blue dark:text-dark-blue underline" href="mailto:hello@mariathornbury.com" target="_blank">maria@thornbury.info</a></u>, or contact me on my <u><a class="text-light-blue dark:text-dark-blue underline" href="https://www.linkedin.com/in/maria-thornbury-63122a27b/">Linkedin page</a></u>.
 
 
                                                                                                           
 
-Type 'help' to see the list of available commands.
-Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
-`;
+Type 'help' to see the list of available commands.`;
 };
