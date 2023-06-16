@@ -23,34 +23,34 @@ Type 'sumfetch' to display summary.
 };
 
 // Redirection
-export const repo = async (args: string[]): Promise<string> => {
-  window.open(`${config.repo}`);
-  return 'Opening Github repository...';
-};
+// export const repo = async (args: string[]): Promise<string> => {
+//   window.open(`${config.repo}`);
+//   return 'Opening Github repository...';
+// };
 
 // About
-export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
-Welcome to my website!
-More about me:
-'sumfetch' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
-};
+// export const about = async (args: string[]): Promise<string> => {
+//   return `Hi, I am ${config.name}. 
+// Welcome to my website!
+// More about me:
+// 'sumfetch' - short summary.
+// 'resume' - my latest resume.
+// 'readme' - my github readme.`;
+// };
 
 export const resume = async (args: string[]): Promise<string> => {
   window.open(`${config.resume_url}`);
   return 'Opening resume...';
 };
 
-// Donate
-export const donate = async (args: string[]): Promise<string> => {
-  return `thank you for your interest. 
-here are the ways you can support my work:
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
-`;
-};
+// // Donate
+// export const donate = async (args: string[]): Promise<string> => {
+//   return `thank you for your interest. 
+// here are the ways you can support my work:
+// - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
+// - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
+// `;
+// };
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
@@ -58,11 +58,11 @@ export const email = async (args: string[]): Promise<string> => {
   return `Opening mailto:${config.email}...`;
 };
 
-export const github = async (args: string[]): Promise<string> => {
-  window.open(`https://github.com/${config.social.github}/`);
+// export const github = async (args: string[]): Promise<string> => {
+//   window.open(`https://github.com/${config.social.github}/`);
 
-  return 'Opening github...';
-};
+//   return 'Opening github...';
+// };
 
 export const linkedin = async (args: string[]): Promise<string> => {
   window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
@@ -71,10 +71,10 @@ export const linkedin = async (args: string[]): Promise<string> => {
 };
 
 // Search
-export const google = async (args: string[]): Promise<string> => {
-  window.open(`https://google.com/search?q=${args.join(' ')}`);
-  return `Searching google for ${args.join(' ')}...`;
-};
+// export const google = async (args: string[]): Promise<string> => {
+//   window.open(`https://google.com/search?q=${args.join(' ')}`);
+//   return `Searching google for ${args.join(' ')}...`;
+// };
 
 export const duckduckgo = async (args: string[]): Promise<string> => {
   window.open(`https://duckduckgo.com/?q=${args.join(' ')}`);
@@ -108,10 +108,10 @@ fake
 directories`;
 };
 
-export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
-};
+// export const cd = async (args: string[]): Promise<string> => {
+//   return `unfortunately, i cannot afford more directories.
+// if you want to help, you can type 'donate'.`;
+// };
 
 export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
@@ -151,7 +151,7 @@ export const banner = (args?: string[]): string => {
 ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝       ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
             
 You've reached my personal website.
-If you need to contact me please send an email to <a href="mailto:maria@thornbury.info">maria@thornbury.info</a>, or contact me on Linkedin.
+If you need to contact me please send an email to <a href="mailto:hello@mariathornbury.com" target="_blank">maria@thornbury.info</a>, or contact me on my <a href="https://www.linkedin.com/in/maria-thornbury-63122a27b/">Linkedin page </a>.
 
 
                                                                                                           
