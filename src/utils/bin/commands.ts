@@ -151,12 +151,10 @@ export const banner = (args?: string[]): string => {
 ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝       ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
             
 You've reached my personal website.
-If you need to contact me please email maria@thornbury.info
-jj
+If you need to contact me please send an email to <a href="mailto:maria@thornbury.info">maria@thornbury.info</a>, or contact me on Linkedin.
 
-<br>
-<br>
-<br>                                                                                                           
+
+                                                                                                          
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
