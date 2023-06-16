@@ -38,10 +38,10 @@ Type 'sumfetch' to display summary.
 // 'readme' - my github readme.`;
 // };
 
-export const resume = async (args: string[]): Promise<string> => {
-  window.open(`${config.resume_url}`);
-  return 'Opening resume...';
-};
+// export const resume = async (args: string[]): Promise<string> => {
+//   window.open(`${config.resume_url}`);
+//   return 'Opening resume...';
+// };
 
 // // Donate
 // export const donate = async (args: string[]): Promise<string> => {
@@ -151,13 +151,12 @@ export const banner = (args?: string[]): string => {
 ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝       ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
             
 You've reached my personal website.
-If you need to contact me please send an email to <a href="mailto:hello@mariathornbury.com" target="_blank">maria@thornbury.info</a>, or contact me on my <a href="https://www.linkedin.com/in/maria-thornbury-63122a27b/">Linkedin page </a>.
+If you need to contact me please send an email to <u><a class="text-light-blue dark:text-dark-blue underline" href="mailto:hello@mariathornbury.com" target="_blank">maria@thornbury.info</a></u>, or contact me on my <u><a class="text-light-blue dark:text-dark-blue underline" href="https://www.linkedin.com/in/maria-thornbury-63122a27b/">Linkedin page </a></u>.
 
 
                                                                                                           
 
 Type 'help' to see the list of available commands.
-Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 `;
 };
