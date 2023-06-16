@@ -150,7 +150,7 @@ export const banner = (args?: string[]): string => {
 ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝       ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
             
 You've reached my personal website.
-If you need to contact me please send an email to <u><a class="text-light-blue dark:text-dark-blue underline" href="mailto:hello@mariathornbury.com" target="_blank">hello@mariathornbury.com</a></u>, or contact me on my <u><a class="text-light-blue dark:text-dark-blue underline" href="https://www.linkedin.com/in/maria-thornbury-63122a27b/">Linkedin page</a></u>.
+If you need to contact me please send an email to <u><a class="text-light-blue dark:text-dark-blue underline" href="mailto:hello@mariathornbury.com" target="_blank">hello@mariathornbury.com</a></u>, or contact me on my <u><a class="text-light-blue dark:text-dark-blue underline" href="https://www.linkedin.com/in/maria-thornbury-63122a27b/" target="_blank">Linkedin page</a></u>.
 
 
                                                                                                           
